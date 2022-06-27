@@ -15,31 +15,29 @@ use App\Http\Controller\UserController;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
-
+//Student
 //get all students detail 
 Route::middleware('auth:sanctum')->get('students', 'App\Http\Controllers\StudentsController@getStudents');
-
-
 //get spacific student details
 Route::middleware('auth:sanctum')->get('students/{id}','App\Http\Controllers\StudentsController@getStudentsById');   
-
 //add Student
 Route::middleware('auth:sanctum')->post('addStudent','App\Http\Controllers\StudentsController@addStudent');
-
 //uapdate Student
 Route::middleware('auth:sanctum')->put('updateStudent/{id}','App\Http\Controllers\StudentsController@updateStudent');
-
 //delete student
 Route::middleware('auth:sanctum')->delete('deleteStudent/{id}','App\Http\Controllers\StudentsController@deleteStudent');
 
+//User
 //new user register with token 
 Route::post('register','App\Http\Controllers\UserController@register');
 
+
+//Contactus
 //Store contactus
 Route::post('storeContact','App\Http\Controllers\ContactController@storeContact');
-
 //get contact us
 Route::middleware('auth:sanctum')->get('getContact','App\Http\Controllers\ContactController@getContact');
+
 
 
 // For Admission

@@ -33,4 +33,5 @@ class ContactController extends Controller
     {
         return response()->json(Contact::all(),200);  
     }
+
 }
