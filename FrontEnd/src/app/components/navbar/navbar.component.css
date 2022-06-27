@@ -1,0 +1,176 @@
+/*
+    colors used
+    #D69314	(214,147,20)
+    #ffffff	(255,255,255)
+*/
+
+
+ 
+  
+ 
+  
+  
+  
+  
+
+  
+ 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+  background-color: #D69314;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+h2{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+h3{
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+h4{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+h5{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #1d1d1d;
+}
+h6{
+   color: #D8D8D8;
+} 
+form .input-group .btn-default{
+    background: white;
+    height: 48px;
+    color: blue;
+} 
+
+  
+form .input-group .btn-default:hover{
+  color:  rgb(255,145,0);
+}
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar i:hover,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar i.active{
+  
+  color: rgb(255,145,0);
+}
+ul li.nav-item{
+  padding: 0 12px;
+  position: relative;
+  top: 50px;
+  right: 60px;
+}
+ 
+
+.yellow-color {
+  color: #D69314 !important;
+}
+.navbar{
+    background: #D69314;
+    color: #D69314;
+    position: relative;
+    height: 150px;
+    
+}
+.navbar-nav li:hover > ul.dropdown-menu {
+  
+  display: block
+  
+    
+}
+.dropdown-submenu {
+    position:relative;
+    top: 100px;
+}
+.dropdown-submenu>.dropdown-menu {
+    top:0;
+    left:100%;
+    margin-top:-6px;
+}
+body{
+  height: 100vh;
+  text-align: center;
+}
+  /*Trigger Button*/
+.login-trigger {
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(to bottom right, #B05574, #F87E7B);
+  padding: 15px 30px;
+  border-radius: 30px;
+  position: relative; 
+  top: 50%;
+}
+
+/*Modal*/
+h4 {
+  font-weight: bold;
+  color: #fff;
+}
+.close {
+  color: #fff;
+  transform: scale(1.2)
+}
+.modal-content {
+  font-weight: bold;
+  background: linear-gradient(to bottom right,#F87E7B,#B05574);
+}
+.form-control {
+  margin: 1em 0;
+}
+.form-control:hover, .form-control:focus {
+  box-shadow: none;  
+  border-color: #fff;
+}
+.username, .password {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  border-bottom: 2px solid #eee;
+  padding-left: 0;
+  font-weight: normal;
+  background: transparent;  
+}
+.form-control::-webkit-input-placeholder {
+  color: #eee;  
+}
+.form-control:focus::-webkit-input-placeholder {
+  font-weight: bold;
+  color: #fff;
+}
+.login {
+  padding: 6px 20px;
+  border-radius: 20px;
+  background: none;
+  border: 2px solid #FAB87F;
+  color: #FAB87F;
+  font-weight: bold;
+  transition: all .5s;
+  margin-top: 1em;
+}
+.login:hover {
+  background: #FAB87F;
+  color: #fff;
+}
+
+
+
+
+   
+
+
+  
